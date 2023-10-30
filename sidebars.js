@@ -64,6 +64,47 @@ const sidebars = {
       ],
     }
   ],
+  apisSidebar: [
+    {
+      type: 'category',
+      label: 'core',
+      link: {
+        type: "generated-index",
+        title: 'core',
+        description: '@pictode/core包重要API说明！',
+      },
+      items: [
+        'apis/core/app',
+        'apis/core/utils',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'tools',
+      link: {
+        type: "generated-index",
+        title: 'tools',
+        description: '@pictode/tools包重要API说明！',
+      },
+      items: [
+        'apis/tools/rectangle-tool', 
+        'apis/tools/ellipse-tool', 
+        'apis/tools/polygon-tool', 
+        'apis/tools/line-tool', 
+        'apis/tools/brush-tool', 
+        'apis/tools/text-tool', 
+        'apis/tools/image-tool', 
+        'apis/tools/selector-tool'
+      ],
+    },
+    {
+      type: 'doc',
+      label: '@pictode/plugin-selector',
+      id: 'apis/plugin-selector'
+    },
+    'apis/plugin-history',
+    'apis/plugin-alignment',
+  ]
 };
 
 module.exports = sidebars;

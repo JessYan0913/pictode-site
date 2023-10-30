@@ -52,6 +52,12 @@ const config = {
             position: 'left',
           },
           {
+            label: 'API',
+            sidebarId: 'apisSidebar',
+            position: 'left',
+            type: 'docSidebar'
+          },
+          {
             href: 'https://pictode.com',
             label: '画板',
             position: 'right',
