@@ -24,6 +24,12 @@ Pictode提供了丰富的插件功能，目前我们提供`@pictode/plugin-align
 
 在使用Pictode之前，你可能需要了解一些Pictode的主要概念！正确理解这些概念，可以帮助你避免一些不必要的麻烦。相信我，这些概念真的通俗易懂。
 
+### Pictode和[Konva.js](https://konvajs.org/)是什么关系？
+
+Konva.js是一个用于创建交互性Canvas应用的JavaScript库。它建立在HTML5 Canvas之上，提供了一个易于使用的API，使开发者能够轻松地在网页上创建图形和交互性元素。Konva.js的目标是简化Canvas编程，使开发者能够更容易地处理图形、动画和用户交互。
+
+而Pictode是一个基于Konva.js的绘图编辑器框架。它建立在Konva.js之上，提供了一系列方便绘图编辑器开发的插件及工具，使开发者能够快速在自己的项目中搭建出一个可交互的绘图编辑器。Pictode的目标是简化编辑器的搭建，使开发者只需要关系业务逻辑。
+
 ### 舞台
 
 Pictode围绕着舞台的概念展开，舞台作为主要的绘图区域。
