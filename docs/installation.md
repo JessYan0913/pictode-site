@@ -6,9 +6,9 @@ sidebar_label: 安装
 
 ## 安装步骤
 
-### 下载Pictode
+### 获取Pictode
 
-您可以从Pictode的官方网站下载最新版本。
+探索Pictode，您只需在Npm仓库中搜索 `@pictode`，即可轻松找到相关的依赖包。其中，最为核心的是 `@pictode/core` 包，内含了整合了 `Konva.js` 和 `Pictode` 应用类的关键功能。让您尽情享受绘图编辑的便捷和灵活！
 
 ### 解压文件
 
